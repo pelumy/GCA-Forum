@@ -1,0 +1,137 @@
+/* this is necessary for the javascript, copy from here*/
+.navbar-change{
+    background-color: black;
+    text-align: center;
+    padding-left: 0;
+}
+
+.navbar-change a {
+    border-bottom: 0.5px solid rgba(125, 125, 125, 0.3);
+    color: white;
+}
+
+
+
+/* this is necessary for the javascript  end*/
+
+/* This applies to all elements on the website */
+
+*{
+    font-family: 'Open Sans', serif, sans-serif;
+}
+
+/* end */
+
+.navbar{
+    background-color: black;
+    height: 40px;
+}
+
+ul, li, a.nav-link{
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+ul, li, a.nav-link:hover{
+    color: #EC268F;
+}
+
+.logo img{
+    width: 100px; 
+    height: 20px;
+}
+
+#navbar-btn{
+    background-color: #EC268F;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px #EC268F solid;
+}
+
+#navbar-btn:hover{
+    color: #EC268F;
+    background-color: white;
+}
+/* stop copying for navbar here */
+
+.bg-image{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.9)
+    ),
+    url(images/bg.png);
+    color: white; 
+}
+
+#contact-card{
+    background-color: #EC268F;
+    color: white;
+    border-radius: 15px;
+    margin: 50px 0 50px 0;
+}
+
+.bold{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.bold-gca{
+    font-weight: 900;
+}
+#contact-form{
+    margin-top: 30px; 
+}
+
+#inner-contact{
+    padding:10px;
+}
+
+.botin{
+    color: white;
+    background-color: #EC268F;
+    border-radius: 15px;
+    border: 1px #EC268F solid;
+}
+
+.card-image{
+    background-repeat: no-repeat;
+    background: linear-gradient(#00000094,#00000094),
+    url(images/bg.png);
+    background-size: cover;
+}
+
+.card-header a{
+    text-decoration: none;
+}
+
+#acc-heading{
+    background-color: rgb(182, 35, 113);
+    color: white;
+}
+
+#acc-body{
+    margin: 7px 5px 7px 5px;
+    padding: 7px 5px 7px 5px;
+    font-size: 18px;
+}
+
+.faq-link a{
+    text-decoration: none;
+    color: #EC268F;
+    font-weight: 600;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}
+#footer-text{
+    color:white; 
+    font-weight: 100; 
+    font-family: monospace;
+    padding-top: 7px;
+
+}
