@@ -1,0 +1,167 @@
+.navbar-change{
+    background-color: black;
+    text-align: center;
+    padding-left: 0;
+}
+
+.navbar-change a {
+    border-bottom: 0.5px solid rgba(125, 125, 125, 0.3);
+    color: white;
+}
+
+*{
+    font-family: 'Open Sans', serif, sans-serif;
+}
+
+
+.navbar{
+    background-color: black;
+    height: 40px;
+}
+
+ul, li, a.nav-link{
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+ul, li, a.nav-link:hover{
+    color: #EC268F;
+}
+
+.logo img{
+    width: 100px; 
+    height: 20px;
+}
+
+#navbar-btn{
+    background-color: #EC268F;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px #EC268F solid;
+}
+
+#navbar-btn:hover{
+    color: #EC268F;
+    background-color: white;
+}
+
+
+.header {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  
+}
+
+  .botin{
+    color: white;
+    background-color: #EC268F;
+    border-radius: 15px;
+    border: 1px #EC268F solid;
+    width: 100px;
+    margin: 3em auto;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}
+#footer-text{
+    color:white; 
+    font-weight: 100; 
+    font-family: monospace;
+    padding-top: 7px;
+
+}
+
+.search {
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.search .searchbutton {
+    background: transparent;
+    width: 5%;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0px;
+    border: 0;
+}
+
+.search .searchterm {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    padding-left: 5%;
+}
+
+.search .search-filter {
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    padding: 5px 0;
+    margin-right: 10px;
+}
+
+.space-top {
+    margin-top: 60px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-right {
+    text-align: right;
+}
+
+h2 {
+    font-weight: bold;
+}
+.sidebar{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+
+.sidebar li{
+    
+    margin-bottom: 2px;
+    padding: 2px;
+}
+.main {
+    margin-right: 250px;
+   
+}
+.mail {
+    margin: 1em 3em 2em 2em;
+}
+.profile{
+    margin-bottom: 2em;
+
+}
+.begin{
+    margin-bottom: 1em;
+    background-color: rgba(250, 235, 215, 0.856);
+    width: 15em;
+    border-radius: 2em;
+}
+
+.sidebar .b{
+    border-bottom-width: 0.5px;
+    border-bottom-color: rgb(70, 64, 64);
+    border-bottom-style: solid;
+    padding-bottom: 1em;
+}
+.sidebar .f{
+    padding-top: 1em;
+}
+.row a {
+    color:#EC268F ;
+}
