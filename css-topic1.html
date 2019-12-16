@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/itunustyle.css">
+    <!-- load all font awesome styles -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>CSS-Topic1 - GCA Forum</title>
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="wrapper">
+        <nav id="sidebar">
+            <!-- notification and profile pic -->
+            <div class="col-md- profile mt-2 mb-3">
+                <img src="images/avatar1.png" alt="avatar" class="rounded-circle img-fluid mr-3">
+                <span class="fa-layers fa-fw">
+                    <i class="fas fa-envelope"></i>
+                    <span class="fa-layers-counter" style="background-color: #EC268F;">1</span>
+                </span>
+            </div>
+            <!-- new discussions -->
+            <p class=" btn text-white btn-rounded deep-pink-btn px-4 py-2">Read new discussions</p>
+            <ul style="list-style-type: square;">
+                <li class="text-dark"><a href="#" class="text-dark">Learn HTML components</a></li>
+                <li class="text-dark"> <a href="#" class="text-dark">Learn JavaScript in 5 mins read</a></li>
+            </ul>
+            <hr>
+            <ul style="list-style-type: square;">
+                <li class="text-dark"> <a href="faq.html" class="text-dark"> FAQs</a></li>
+                <li class="text-dark"> <a href="#" class="text-dark"> Announcement</a></li>
+                <li class="text-dark"> <a href="#" class="text-dark">Donate</a></li>
+                <li class="text-dark"> <a href="#" class="text-dark"> Volunteer opportunities</a></li>
+                <li class="text-dark"> <a href="#" class="text-dark"> Internship opportunities</a></li>
+                <li class="text-dark"> <a href="#" class="text-dark"> Jobs</a></li>
+                <li class="text-dark"> <a href="#" class="text-dark"> Meetups</a></li>
+            </ul>
+        </nav>
+
+        <!-- page content -->
+        <div id="content">
+
+            <!-- nav menu -->
+            <nav class="navbar navbar-expand-lg mb-2 px-2 py-2 ">
+                <div class="container-fluid">
+
+                    <!-- logo -->
+                    <a href="index.html" class="navbar-brand logo">
+                        <img src="images/logo.png" alt="girlcode logo">
+                    </a>
+                    <!-- logo end -->
+                    <!-- menu button -->
+                    <button class="navbar-toggler" id="navbar-toggle" type="button" data-toggle="collapse"
+                        data-target="#nav">
+                        <i class="fa fa-bars" style="color: #EC268F;"></i>
+                    </button>
+                    <!-- menu btn end -->
+                    <!-- nav links -->
+
+                    <div class=" collapse navbar-collapse" id="nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="about-us.html" class="nav-link ">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact-us.html" class="nav-link ">
+                                    CONTACT US
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="signup.html" class="nav-link">
+                                    SIGN UP
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="signin.html" class="nav-link">
+                                    SIGN IN
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="faq.html" class="nav-link">
+                                    FAQ
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="signup.html" class="btn nav-item">
+                            <button id="navbar-btn">CREATE ACCOUNT</button>
+                        </a>
+                    </div>
+                    <!-- nav-link end -->
+                </div>
+            </nav>
+            <!-- container end -->
+            <div class="container-fluid">
+                <div class="row col-12 mb-2">
+                    <!-- sidebar toggler -->
+                    <button type="button" id="sidebarCollapse" class="btn">
+                        <i class="fas fa-angle-left"></i>
+                        <span>Side menu</span>
+                    </button>
+
+
+                </div>
+            </div>
+            <!-- end of nav menu -->
+            <div class="container-fluid">
+
+                <!-- search bar -->
+                <div class="row col-12">
+                    <div class=" col-md-9 " id="searchbar">
+                        <form action="#" class="input-group md-form form-sm form-1 mb-4 border-rounded shadow
+                                    d-flex justify-content-between align-items-center">
+                            <!-- search icon -->
+                            <button class="input-group-prepend border-0 bg-white mx-0" type="submit">
+                                <span class="input-group-text search-bg border-0 bg-white">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                            <!-- text field -->
+                            <input class="form-control my-0 my-md-2 border-0" type="text" placeholder="Search...">
+                            <!-- dropdown -->
+                            <div class="btn btn-rounded my-md-1">
+                                <div class="dropdown">
+                                    <button class="btn btn-sm py-md-2 px-md-4 light-pink-btn text-center" type="button"
+                                        id="dropdown1" datatoggle="dropdown1" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <Span class="pink-text">Topics</Span> <i class="fa fa-angle-down"
+                                            style="color: #EC268F;"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown" id="dropdown-menu1">
+                                        <a class="dropdown-item" href="html.html">HTML</a>
+                                        <a class="dropdown-item" href="css.html">CSS</a>
+                                        <a class="dropdown-item" href="bootstrap.html">Bootstrap</a>
+                                        <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                                        <a class="dropdown-item" href="others.html">Others</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- search bar end -->
+
+                        <!-- topic section -->
+                        <!-- image -->
+                        <div class="row mt-5 main-topic ">
+                            <div class="col-md-1">
+                                <img src="images/avatar1.png" alt="avatar" class="rounded-circle  mb-2 mb-md-0">
+                            </div>
+                            <!-- break -->
+                            <div class="col-md-1"></div>
+
+                            <div class="col-md-7">
+                                <h4 class="boldd">CSS</h4>
+                                <h6 class="text-muted">Shizzy</h6>
+
+
+                                <p>
+                                    CSS is used to enhance the look of the web page. In my previous topic, we saw the
+                                    attribute
+                                    ‘style’, which is used for
+                                    changing the color of the text. It can be written internally, inline or linked
+                                    externally.
+                                </p>
+                            </div>
+                            <!-- other viewers -->
+                            <div class="other-main-profile ml-5 ml-md-0">
+                                <span class="main-avatar"><img src="images/avatar3.jpeg" alt="avatar"
+                                        class="rounded-circle first"></span>
+                                <span class="main-avatar"><img src="images/avatar4.jpeg" alt="avatar"
+                                        class="rounded-circle first"></span>
+                                <span class="main-avatar"><img src="images/avatar1.png" alt="avatar"
+                                        class="rounded-circle first"></span>
+                            </div>
+                        </div>
+                        <!-- first topic end -->
+                        <div class="row">
+                            <!-- break  -->
+                            <div class="col-md-2"></div>
+                            <div class="col-md-7">
+                                <hr>
+                            </div>
+                        </div>
+                        <!-- first comment btn -->
+                        <div class="row">
+                            <!-- break  -->
+                            <div class="col-md-2"></div>
+                            <div class="col-md-7 mt-4 mt-md-0 ">
+                                <p class="btn light-pink-btn pink-text">23
+                                    comments</p>
+                            </div>
+                        </div>
+
+
+                        <!-- text area -->
+                        <div class="row  pb-5">
+                            <!-- break  -->
+                            <div class="col-md-2"></div>
+                            <div class="col-md-7">
+                                <form class="form-md">
+                                    <label for="msg" class="col-12 label-color"></label>
+                                    <textarea name="message" cols="30" rows="5" class="form-control"
+                                        placeholder="Start typing..."></textarea>
+                                </form>
+                                <!-- submit button -->
+                                <div class="">
+                                    <button class="deep-pink-btn btn-rounded btn-md px-md-4 py-md-1">Post
+                                        comment</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- left side end -->
+                    <!-- break -->
+                    <div class="col-md-1"></div>
+                    <!-- right side start -->
+
+                    <div class=" col-md-2">
+                        <!-- recent topics toggler -->
+                        <button type="button" id="recentbarCollapse" class="btn light-pink-btn d-block d-sm-none mb-5"
+                            data-target="#recent" data-toggle="collapse">
+                            <i class="fas fa-angle-down pink-text"></i>
+                            <span class="pink-text">Touch me</span>
+                        </button>
+                        <!-- recent -->
+                        <div class="collapse d-sm-none d-md-block" id="recent">
+                            <h4 class="boldd mt-4 mt-md-0">Recent</h4>
+                            <!-- first recent -->
+                            <!-- image -->
+                            <div class="row col-12 recent-topic mt-3 ">
+                                <div class="recent-topic">
+                                    <img src="images/avatar2.jpeg" alt="avatar" class="rounded-circle  mb-2 mb-md-0">
+                                </div>
+                            </div>
+                            <div class="row col-12">
+                                <!-- heading -->
+                                <h6 class="boldd">HTML</h6>
+                            </div>
+                            <!-- text -->
+                            <p class="tiny-font">
+                                I assume that you, the reader, have some experience with HTML and HTML5
+                                documents. One of the most important new features in HTML5 is the canvas element
+                            </p>
+                            <!-- rule -->
+                            <hr>
+                            <!-- first recent end -->
+                            <!-- scnd recent -->
+                            <!-- image -->
+                            <div class="row col-12 recent-topic mt-3 ">
+                                <div class="recent-topic">
+                                    <img src="images/avatar1.png" alt="avatar" class="rounded-circle  mb-2 mb-md-0">
+                                </div>
+                            </div>
+                            <div class="row col-12">
+                                <!-- heading -->
+                                <h6 class="boldd">CSS</h6>
+                            </div>
+                            <!-- text -->
+                            <p class="tiny-font">
+                                I assume that you, the reader, have some experience with HTML and HTML5
+                                documents. One of the most important new features in HTML5 is the canvas element
+                            </p>
+                            <!-- rule -->
+                            <hr>
+                            <!-- scnd recent end -->
+                            <!-- 3rd recent -->
+                            <!-- image -->
+                            <div class="row col-12 recent-topic mt-3 ">
+                                <div class="recent-topic">
+                                    <img src="images/avatar4.jpeg" alt="avatar" class="rounded-circle  mb-2 mb-md-0">
+                                </div>
+                            </div>
+                            <div class="row col-12">
+                                <!-- heading -->
+                                <h6 class="boldd">JavaScript</h6>
+                            </div>
+                            <!-- text -->
+                            <p class="tiny-font">
+                                I assume that you, the reader, have some experience with HTML and HTML5
+                                documents. One of the most important new features in HTML5 is the canvas element
+                            </p>
+                            <!-- rule -->
+                            <hr class="mb-md-0 mb-5">
+
+
+
+                        </div>
+                        <!-- recent end -->
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- container end -->
+
+
+
+
+
+            <!-- footer with copyright -->
+            <footer class="text-center ">
+                <p class="footer-text py-2 px-2">
+                    &copy; Girlcode Academy 2019
+                </p>
+
+            </footer>
+
+            <!-- content end -->
+
+        </div>
+
+        <script defer src="js/all.js"></script>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/new.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+/* applies font family to all body */
+*{
+    font-family: 'Open Sans', serif, sans-serif;
+}
+/* navbar */
+.navbar{
+    background-color: black;
+}
+
+ul, li, a.nav-link{
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+ul, li, a.nav-link:hover{
+    color: #EC268F;
+}
+
+.logo img{
+    width: 100px; 
+    height: 20px;
+}
+
+#navbar-btn{
+    background-color: #EC268F;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px #EC268F solid;
+}
+
+#navbar-btn:hover{
+    color: #EC268F;
+    background-color: white;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+}
+
+.footer-text{
+    color:white; 
+    font-weight: 100; 
+    font-family: monospace;
+}
+
+/* breakpoint for small devices navbar */
+
+@media (max-width: 767px){
+    .navbar-collapse{
+    text-align: center;
+    padding-left: 0;
+    background-color: black;
+    }
+
+    .navbar-collapse>ul>li>a{
+        border-bottom: 1px solid rgba(129, 128, 128, 0.2);
+    }
+
+}

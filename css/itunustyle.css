@@ -1,31 +1,125 @@
-/* this is necessary for the javascript, copy from here*/
-.navbar-change{
+.wrapper{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+var{
+    background-color: rgba(224, 224, 221,0.80);
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    padding-left: 10px;
+    background-color: rgb(248, 228, 203);
+}
+
+#sidebar.active{
+    margin-left: -250px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 50px;
+}
+
+
+.navbar{
     background-color: black;
-    text-align: center;
-    padding-left: 0;
 }
-
-.navbar-change a {
-    border-bottom: 0.5px solid rgba(125, 125, 125, 0.3);
-    color: white;
-}
-
-
-
-/* this is necessary for the javascript  end*/
-
-/* This applies to all elements on the website */
 
 *{
     font-family: 'Open Sans', serif, sans-serif;
 }
 
-/* end */
-
-.navbar{
-    background-color: black;
-    height: 40px;
+.btn a:hover{
+    color: initial;
+    text-decoration: none;
+    color: #EC268F;
 }
+
+.profile img{
+    width: 60px;
+    height: 60px;
+    border:2px solid #EC268F;
+}
+
+.input-box{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;   
+}
+.field-icon{
+    float: right;
+    margin: -25px 0 0 -25px;
+    position: relative;
+    z-index: 2;
+}
+
+.topic img{
+    width: 80px;
+    height: 80px;
+    border:3px solid rgba(236, 38, 143, 50%);
+}
+
+.main-topic img{
+    width: 70px;
+    height: 70px;
+    border:3px solid rgba(236, 38, 143, 50%);
+}
+
+.recent-topic img{
+    width: 30px;
+    height: 30px;
+    border:3px solid rgba(236, 38, 143, 50%);
+}
+
+.tiny-font{
+    font-size: 9px;
+}
+
+.other-profile,.other-main-profile{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-avatar{
+    margin-left: -25px;
+    position: relative;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+
+.avatar{
+    margin-left: -15px;
+    position: relative;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+
+.other-profile img{
+    width: 50px;
+    height: 50px;
+    border-left:3px solid rgba(236, 38, 143, 50%);
+}
+
+.other-main-profile img{
+    width: 40px;
+    height: 40px;
+    border-left:3px solid rgba(236, 38, 143, 50%);
+}
+
+
 
 ul, li, a.nav-link{
     color: white;
@@ -55,7 +149,17 @@ ul, li, a.nav-link:hover{
     color: #EC268F;
     background-color: white;
 }
-/* stop copying for navbar here */
+
+#sidebar ul{
+    padding-left: 15px;
+}
+
+.faq-link a{
+    text-decoration: underline;
+    color: #EC268F;
+    font-weight: 600;
+}
+
 
 .bg-image{
     background-image: linear-gradient(
@@ -118,20 +222,62 @@ ul, li, a.nav-link:hover{
     font-size: 18px;
 }
 
-.faq-link a{
-    text-decoration: none;
-    color: #EC268F;
-    font-weight: 600;
+/* javascript */
+.search-bg{
+background-color:transparent;
+border: 1px solid white;
 }
+
+.light-pink-btn{
+background-color: rgba(236, 38, 143, 17%);
+}
+
+.deep-pink-btn{
+    background-color: #EC268F;
+    color: white;
+    border: 1px solid #EC268F;
+    border-radius: 2px;
+}
+
+.pink-text{
+    color: #EC268F;
+    font-weight: bold;
+}
+.boldd{
+    font-weight: bold;
+}
+
+
+   
 
 footer{
     background-color: black;
-    height: 50px;
 }
-#footer-text{
+
+.footer-text{
     color:white; 
     font-weight: 100; 
     font-family: monospace;
-    padding-top: 7px;
+}
 
+@media (max-width: 768px){
+    .navbar-collapse{
+    text-align: center;
+    padding-left: 0;
+    background-color: black;
+    }
+
+    .navbar-collapse>ul>li>a{
+        border-bottom: 1px solid rgba(129, 128, 128, 0.2);
+    }
+
+    #sidebar{
+        margin-left: -250px;
+    }
+
+    #sidebar.active{
+        margin-left: 0;
+    }
+
+    
 }

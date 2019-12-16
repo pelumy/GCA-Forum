@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,56 +15,64 @@
 
 <body>
     <!-- nav menu -->
-    <nav class="navbar navbar-expand-sm fixed-top mb-5">
-        <!-- logo -->
-        <a href="index.html" class="navbar-brand logo">
-            <img src="images/logo.png" alt="girlcode logo">
-        </a>
-        <!-- logo end -->
-        <!-- menu button -->
-        <button class="navbar-toggler" id="navbar-toggle" type="button" data-toggle="collapse" data-target="#nav">
-            <i class="fa fa-bars" style="color: #EC268F;"></i>
-        </button>
-        <!-- navbar-->
-        <div class="navbar-change collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="#" class="nav-link ">
-                        ABOUT
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact-us.html" class="nav-link ">
-                        CONTACT US
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        SIGN UP
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        SIGN IN
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="faq.html" class="nav-link">
-                        FAQ
-                    </a>
-                </li>
-            </ul>
-            <a href="index.html" class="btn">
-                <button id="navbar-btn">CREATE ACCOUNT</button>
+
+    <nav class="navbar navbar-expand-lg mb-5 px-2 py-2 ">
+        <div class="container-fluid">
+
+            <!-- logo -->
+            <a href="index.html" class="navbar-brand logo">
+                <img src="images/logo.png" alt="girlcode logo">
             </a>
+            <!-- logo end -->
+            <!-- menu button -->
+            <button class="navbar-toggler" id="navbar-toggle" type="button" data-toggle="collapse" data-target="#nav">
+                <i class="fa fa-bars" style="color: #EC268F;"></i>
+            </button>
+            <!-- menu btn end -->
+            <!-- nav links -->
+
+            <div class=" collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link ">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact-us.html" class="nav-link ">
+                            CONTACT US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signup.html" class="nav-link">
+                            SIGN UP
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signin.html" class="nav-link">
+                            SIGN IN
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faq.html" class="nav-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+                <a href="signup.html" class="btn nav-item">
+                    <button id="navbar-btn">CREATE ACCOUNT</button>
+                </a>
+            </div>
+            <!-- nav-link end -->
     </nav>
+    <!-- container end -->
     </div>
     <!-- end of nav menu -->
 
     <!-- faq-->
-    <div class="container mt-5">
-        <h2 class="pl-3 pb-3 ">FAQs</h2>
-        <h5 class="pl-3 pb-5">Below, you will find answers to the questions we get asked the most
+    <div class="container-fluid mt-5">
+        <h2 class="pl-3 pb-3 row ">FAQs</h2>
+        <h5 class="pl-3 pb-5 row">Below, you will find answers to the questions we get asked the most
             about applying into the Girlcode Academy programme.
         </h5>
 
@@ -81,7 +92,8 @@
                                         aria-expanded="true" aria-controls="collapse0">
                                         <i class="fas fa-angle-down fa-2x mr-4 ml-2 float-left" aria-hidden="true"
                                             style=" color: white;"></i>
-                                        <h5 class="mb-0 py-1" id="acc-heading">What is the GirlCode Academy about?</h5>
+                                        <h5 class="mb-0 py-1" id="acc-heading">What is the GirlCode Academy about?
+                                        </h5>
                                     </a>
                                 </div>
                                 <!-- card body 0-->
@@ -89,10 +101,12 @@
                                     data-parent="#accordionAll">
                                     <div class="class-body  white-text z-depth-1" id="acc-body">
                                         <p class="p-md-4">
-                                            The GirlCode Academy is a non-profit organization empowering young women to
+                                            The GirlCode Academy is a non-profit organization empowering young women
+                                            to
                                             obtain skills in STEM; thereby, encouraging them to
                                             pursue a career in STEM and bridging the gender gap in the technology
-                                            industry. You can <span class="faq-link"><a href="#">read more</a></span>
+                                            industry. You can <span class="faq-link"><a href="about-us.html">read
+                                                    more</a></span>
                                             about us and support us by
                                             <span class="faq-link"><a href="#">donating</a></span>.
                                         </p>
@@ -141,8 +155,10 @@
                                     data-parent="#accordionAll">
                                     <div class="class-body  white-text z-depth-1" id="acc-body">
                                         <p class="p-md-4">
-                                            All you need is a working laptop and a learning mindset. You don't need any
-                                            coding knowledge but having basic knowledge before hand can be of great help
+                                            All you need is a working laptop and a learning mindset. You don't need
+                                            any
+                                            coding knowledge but having basic knowledge before hand can be of great
+                                            help
                                             to you.
                                         </p>
                                     </div>
@@ -156,7 +172,8 @@
                                         aria-expanded="true" aria-controls="collapse3">
                                         <i class="fas fa-angle-down   fa-2x mr-4 ml-2 float-left" aria-hidden="true"
                                             style=" color: white;"></i>
-                                        <h5 class="mb-0 py-1" id="acc-heading">What laptop specification do i need?</h5>
+                                        <h5 class="mb-0 py-1" id="acc-heading">What laptop specification do i need?
+                                        </h5>
                                     </a>
                                 </div>
                                 <!-- card body -->
@@ -166,7 +183,8 @@
                                         <p class="p-md-4">
                                             You don't need any mind blowing laptop specification to learn during the
                                             programme.
-                                            If you have a mini, medium or large laptop; so far it works fine, you are
+                                            If you have a mini, medium or large laptop; so far it works fine, you
+                                            are
                                             good
                                             to go.
                                             <i class="fa fa-laugh-wink" style=" color: #EC268F;"></i>
@@ -205,7 +223,8 @@
                                         aria-expanded="true" aria-controls="collapse5">
                                         <i class="fas fa-angle-down   fa-2x mr-4 ml-2 float-left" aria-hidden="true"
                                             style=" color: white;"></i>
-                                        <h5 class="mb-0 py-1" id="acc-heading">Are there internship opprotunities?</h5>
+                                        <h5 class="mb-0 py-1" id="acc-heading">Are there internship opprotunities?
+                                        </h5>
                                     </a>
                                 </div>
                                 <!-- card body -->
@@ -213,9 +232,11 @@
                                     data-parent="#accordionAll">
                                     <div class="class-body  white-text z-depth-1" id="acc-body">
                                         <p class="p-md-4">
-                                            Yes, there are internship opportunities for scholars who meet up with the
+                                            Yes, there are internship opportunities for scholars who meet up with
+                                            the
                                             minimum
-                                            95% attendance requirement and do well in their group and personal projects.
+                                            95% attendance requirement and do well in their group and personal
+                                            projects.
                                         </p>
                                     </div>
                                 </div>
@@ -276,17 +297,18 @@
         </div>
         <!-- card image -->
         <!-- other text -->
-        <h5 class="pl-3 py-5">
-            Can't find your questtions here? <span class="faq-link"><a href="#">Enter forum</a></span> or
-            <span class="faq-link"><a href="#">Contact us</a></span>
+        <h5 class="col-12 py-5 row">
+            Can't find your questions here?
+            <span class="faq-link px-2"> <a href="html.html"> Enter forum</a></span> or
+            <span class="faq-link pl-md-2"><a href="contact-us.html">Contact us</a></span>.
         </h5>
     </div>
     <!-- container -->
 
 
     <!-- footer with copyright -->
-    <footer class="text-center">
-        <p id="footer-text">
+    <footer class="text-center ">
+        <p class="footer-text py-2 px-2">
             &copy; Girlcode Academy 2019
         </p>
 
@@ -297,7 +319,6 @@
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/itunu.js"></script>
 </body>
 
 </html>
