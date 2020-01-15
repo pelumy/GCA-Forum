@@ -1,0 +1,125 @@
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 50px;
+}
+
+/* .aside{
+        ;
+} */
+
+
+.profile-container{
+    display: flex;
+}
+
+.profile-pic{
+    width: 30px;
+    height: 30px;
+    background-color:grey;
+    border-radius: 50%;
+}
+
+.icon-message {
+    width: 50px;
+    height:50px;
+}
+
+.posts{
+    display: flex;
+    height:150px;
+    justify-content: space-between;
+    background: #FEFEFE;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;    
+}
+
+.post-pic{
+    width:50px;
+    height:50px;
+    background-color: #444444;
+    border-radius: 50%;
+}
+
+.post-text p:first-of-type{
+    font-size: .75em;
+}
+
+.post-text p:last-of-type{
+    font-size:.65em;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+#new-comment{
+    width: 100%;
+}
+
+.no-of-comments {
+    font-size: .65em;
+    font-weight: bold;
+    border: 1px solid red;
+    margin-left: 10px;
+}
+.filter ul{
+    padding: 0px 0px;
+}
+.filter ul li {
+    list-style: none;
+}
+
+
+.side-container .card .post-pic {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.side-container .card {
+    border: none;
+    display: flex;
+}
+
+.side-card{
+    float: left;
+    padding: 0px 0px;
+}
+
+.view-post{
+    border: none;
+}
+
+.btn-pink{
+    background-color: hotpink;
+}
+.navbar-change{
+    background-color: black;
+    text-align: center;
+    padding-left: 0;
+}
+
+.navbar-change a {
+    border-bottom: 0.5px solid rgba(125, 125, 125, 0.3);
+    color: white;
+}
+.navbar{
+    background-color: black;
+    height: 40px;
+}
+footer{
+    background-color: black;
+    height: 50px;
+}
+#footer-text{
+    color:white; 
+    font-weight: 100; 
+    font-family: monospace;
+    padding-top: 7px;
+
+}

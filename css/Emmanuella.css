@@ -59,6 +59,26 @@ height: auto;
 padding-bottom: 60px;
   }
 
+<<<<<<< HEAD
+=======
+  .nav-logo {
+    position: absolute;
+    width: 174px;
+    height: 38.82px;
+    left: 150.49px;
+    top: 73.44px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+>>>>>>> 1589adc2944af84a288f182ddb556c52b11c605a
 
 
 .pink {
@@ -71,7 +91,11 @@ padding-bottom: 60px;
 }
 
 .header-content{
+<<<<<<< HEAD
     
+=======
+    padding-top: 200px;
+>>>>>>> 1589adc2944af84a288f182ddb556c52b11c605a
     color: white;
     text-align: center;
 }
@@ -82,6 +106,7 @@ padding-bottom: 60px;
 
 
 .prologo{
+<<<<<<< HEAD
   display: block;
     height: 44px;
     margin:auto;
@@ -95,6 +120,25 @@ padding-bottom: 60px;
 }
 
 
+=======
+  display: inline-block;
+    height: 44px;
+    margin-right: 11px;
+}
+
+.header-content2{
+  padding-top: 150px;
+  color: #ffffff;
+  text-align: left;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 450px;
+}
+
+.theform {
+  margin-top: 100px;
+}
+>>>>>>> 1589adc2944af84a288f182ddb556c52b11c605a
 
 .form-group {
   margin-bottom: 1rem;
@@ -133,6 +177,7 @@ hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
+<<<<<<< HEAD
 
 /* breakpoint for small devices navbar */
 
@@ -148,3 +193,5 @@ hr {
   }
 
 }
+=======
+>>>>>>> 1589adc2944af84a288f182ddb556c52b11c605a
